@@ -1,0 +1,15 @@
+[2025-05-05 13:33:00] Iniciando aplicación
+[2025-05-05 13:33:09] Cerrando aplicación
+[2025-05-05 13:39:40] Iniciando aplicación
+[2025-05-05 13:40:06] ERROR: Error al registrar empleado - No suitable driver found for jdbc:mysql://localhost:3306/granja_digital
+[2025-05-05 13:40:06] ERROR: Error en registro de empleado - No suitable driver found for jdbc:mysql://localhost:3306/granja_digital
+[2025-05-05 13:40:28] ERROR: Error en listado de empleados - No suitable driver found for jdbc:mysql://localhost:3306/granja_digital
+[2025-05-05 13:57:01] Iniciando aplicación
+[2025-05-05 13:57:26] ERROR: Error en registro de empleado - Error de driver MySQL: com.mysql.cj.jdbc.Driver
+[2025-05-05 14:02:08] Iniciando aplicación
+[2025-05-05 14:02:25] ERROR: Error en registro de empleado - Error de driver MySQL: com.mysql.cj.jdbc.Driver
+[2025-05-05 14:04:21] Iniciando aplicación
+[2025-05-05 14:04:51] ERROR: Error en registro de empleado - Error de driver MySQL: com.mysql.cj.jdbc.Driver
+[2025-05-05 14:05:02] ERROR: Error inesperado en gestión de empleados - No line found
+[2025-05-05 14:05:02] ERROR: Error inesperado en gestión de empleados - No line found
+[2025-05-05 14:05:02] ERROR: Error inesperado en gestión de empleados - No line found
