@@ -10,3 +10,4 @@ WORKDIR /app
 COPY --from=builder /app/target/granajadigital-1.0.0-jar-with-dependencies.jar app.jar
 CMD ["java", "-jar", "app.jar"]
 
+
