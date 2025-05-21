@@ -50,7 +50,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.tuempresa.Main</mainClass> <!-- Cambia esto por tu clase principal -->
+                            <mainClass>com.granja.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
