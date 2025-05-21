@@ -7,5 +7,6 @@ RUN mvn clean package
 # Etapa final
 FROM eclipse-temurin:17-jdk
 WORKDIR /app
-COPY --from=builder /app/target/*.jar app.jar
+COPY --from=builder /app/target/granajadigital-1.0.0-jar-with-dependencies.jar app.jar
 CMD ["java", "-jar", "app.jar"]
+
