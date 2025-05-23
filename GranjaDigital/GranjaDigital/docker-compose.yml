@@ -1,7 +1,16 @@
-version: '3.8'
-
 services:
-  granjadigital-app:
+  app:
     build: .
     ports:
       - "8080:8080"
+    depends_on:
+      - db
+  db:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: granja
+    volumes:
+      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "3306:3306"
